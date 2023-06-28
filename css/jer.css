@@ -1,0 +1,47 @@
+body{
+    background-color: #262525;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0%;
+}
+
+
+.cont{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    margin: 40%;
+
+}
+.cont1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.azul {
+    height: 45px;
+    width: 20px;
+    transform: skew(126deg);
+    background-color: #00CCFF;
+    border-radius: 5px 0 0 5px;
+    border: solid 2px;
+}
+.rojo{
+    height: 45px;
+    width: 20px;
+    transform: skewX(54deg);
+    background-color: #00CCFF;
+    border-radius: 0 5px 5px 0;
+    border: solid 2px;
+
+}
+
+
+
+
+
+
+.azul:hover{
+    color: grey;
+    box-shadow: 0px 0px 10px red ;
+
+}

@@ -1,0 +1,107 @@
+{
+    "miembros": 
+    [
+        {
+            "nombre": "Batman",
+            "estatus": "1",
+            "escuadron": "Bravo",
+            "afiliaciones":
+            [
+                "Squad",
+                "Justice League"
+            ],
+            "imagen": "https://i.imgur.com/f8JXlYx.jpg"
+        },
+        {
+            "nombre": "Deadpool",
+            "estatus": "2",
+            "escuadron": "Alpha",
+            "afiliaciones":
+            [
+                "Squad",
+                "Vengadores"
+            ],
+            "imagen": "https://imgur.com/8m5KQGd.jpg"
+        },
+        {
+            "nombre": "Harley Quinn",
+            "estatus": "3",
+            "escuadron": "Charlie",
+            "afiliaciones":
+            [
+                "Squad"
+            ],
+            "imagen": "https://i.imgur.com/VT0vS0L.jpg"
+        },
+        {
+            "nombre": "Harley Quinn",
+            "estatus": "4",
+            "escuadron": "Charlie",
+            "afiliaciones":
+            [
+                "Squad"
+            ],
+            "imagen": "https://i.imgur.com/VT0vS0L.jpg"
+        }  ,
+        {
+            "nombre": "Harley Quinn",
+            "estatus": "5",
+            "escuadron": "Charlie",
+            "afiliaciones":
+            [
+                "Squad"
+            ],
+            "imagen": "https://i.imgur.com/VT0vS0L.jpg"
+        } ,
+        {
+            "nombre": "Harley Quinn",
+            "estatus": "",
+            "escuadron": "Charlie",
+            "afiliaciones":
+            [
+                "Squad"
+            ],
+            "imagen": "https://i.imgur.com/VT0vS0L.jpg"
+        }  
+    ],
+
+    "Escuadrones":
+    [
+        {
+            "nombre": "Aplha"
+        },
+        {
+            "nombre": "Bravo"
+        },
+        {
+            "nombre": "Charlie"
+        },
+        {
+            "nombre": "Delta"
+        },
+        {
+            "nombre": "Echo"
+        },
+        {
+            "nombre": "Foxtrot"
+        }
+    ],
+    
+    "Afiliaciones":[
+        {
+            "nombre": "Squad"
+        },
+        {
+            "nombre": "Justice League"
+        },
+        {
+            "nombre": "Vengadores"
+        },
+        {
+            "nombre": "Comandos ahulladores"
+        },
+        {
+            "nombre": "Hijos de Batman"
+        }
+    ]
+}
