@@ -1,7 +1,5 @@
-
 export let viewListM = document.getElementById("viewListM")
 viewListM.addEventListener("click", async ()=>{ 
-
 
     let list = document.getElementById("list")
     list.innerHTML = ``
