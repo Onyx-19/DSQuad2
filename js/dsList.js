@@ -56,4 +56,38 @@ viewListM.addEventListener("click", async ()=>{
 let addListM = document.getElementById("addListM")
 addListM.addEventListener("click", () => {
     
+    list.innerHTML = 
+    `
+        <form action="" class="AddM">
+            <div>
+                <label for="">Nombre</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">estatus</label>
+                <select>
+                    <option>Indefinido</option>
+                    <option>activo</option>
+                    <option>inactivo</option>
+                    <option>muerto</option>
+                    <option>retirado</option>
+                    <option>Desaparecido</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="">Escuadron</label>
+                <select>
+                    <option>Opciones del array</option>
+                </select>
+            </div>
+            <div>
+                <label>Afiliaciones</label>
+                <select>
+                    <option>Opciones del array</option>
+                </select>
+            </div>
+            <button>Guardar</button>
+        </form>
+    `
 })
