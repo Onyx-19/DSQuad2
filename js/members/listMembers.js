@@ -25,22 +25,23 @@ viewListM.addEventListener("click", async ()=>{
             status = "#4926c9" // Desaparecido
         }
 
-        list.innerHTML += `
-            <div class="divCharacter">
-            <div class="divImg">
-                <img class="imgCharacter" src="${imagen}" alt="">
+        list.innerHTML += 
+        `
+            <div class="divMiembro">
+            <div class="divImgMiembro">
+                <img class="imgMiembro" src="${imagen}" alt="">
             </div>
-            <div class="detail">
-                <div class="div1">
+            <div class="detailMiembro">
+                <div class="div1Miembro">
                     <h2>${nombre}</h2>
                     <p id="estatus" style="background-color:${status}"></p>
                 </div>
-                <div class="div2">
-                    <div class="div2_1">
+                <div class="div2Miembro">
+                    <div class="div2_1Miembro">
                         <h3>Escuadron</h3>
                         <h4>${escuadron}</h4>
                     </div>
-                    <div class="div2_1">
+                    <div class="div2_1Miembro">
                         <h3>Afiliaciones</h3>
                         <h4>${afiliaciones}</h4>
                     </div>

@@ -1,6 +1,43 @@
-.AddM{
-    background-color: red;
+.FormAddMiembro{
+    /* background-color: red; */
     width: 60%;
     border: solid 1px white;
     border-radius: 15px;
+}
+.addMiembro{
+    display: flex;
+}
+.div1AddMiembro{
+    margin: 1%;
+    width: 50%;
+}
+.div1_1AddMiembro{
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cambiar los elementos Input, Select y Option por clases */
+input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px #FFFFFF;
+    border-radius: 5px;
+    outline: 0;
+    color: white;
+}
+select, option{
+    /* background-color: transparent; */
+    color: white;
+    border: solid 1px;
+    border-radius: 15px;
+    background: #262525;
+}
+
+
+.div2AddMiembro{
+    width: 50%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
 }

@@ -8,8 +8,6 @@ body{
 section{
     display: flex;
 }
-
-
 .list{
     width: 100%;
     display: flex;
@@ -25,6 +23,9 @@ section{
     align-items: center;
     justify-content: center;
     max-height: 700px;
+}
+h2, h3, h4, p{
+    margin: 0;
 }
 .divI{
     height: 45px;
@@ -56,8 +57,6 @@ span{
     width: 80%;
     border-radius: 15px;
 }
-
-
 scroll-container {
     width: 94%;
     height: 700px;
