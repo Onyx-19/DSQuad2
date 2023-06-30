@@ -25,29 +25,35 @@ addListM.addEventListener("click", () => {
                         <label for="">Escuadron:</label>
                         <select>
                             <option>Opciones del array</option>
+                            <option>Opciones del array</option>
                         </select>
                     </div>
                     <div class="div1_1AddMiembro">
                         <label>Afiliaciones:</label>
                         <select>
                             <option>Opciones del array</option>
+                            <option>Opciones del array</option>
                         </select>
                     </div>
                     <div class="div1_1AddMiembro">
                         <label>Imagen:</label>
-                        <option>Opciones del array</option>
+
+                        <input type="text">
                     </div>
                 </div>
-
-
                 <div class="div2AddMiembro">
                     <label>Habilidades:</label>
                     <div class="div2_2AddMiembro">
                         <input type="checkbox" class="mark">Opciones del array</input>
                     </div>
+                    <div class="div2_2AddMiembro">
+                        <input type="checkbox" class="mark">Opciones del array</input>
+                    </div>
                 </div>
             </div>
-            <button>Guardar</button>
+            <div class="divBtnAddMemeber">
+                <button class="btnAddMemeber">Guardar</button>
+            </div>
         </form>
     `
 })

@@ -17,6 +17,7 @@
     flex-direction: column;
 }
 
+
 /* Cambiar los elementos Input, Select y Option por clases */
 input{
     background-color: transparent;
@@ -33,6 +34,9 @@ select, option{
     border-radius: 15px;
     background: #262525;
 }
+input:focus, select:focus, option:focus, .btnAddMemeber:hover, .btnAddMemeber:focus{
+    box-shadow: 1px 2px 4px #FFFFFF;
+}
 
 
 .div2AddMiembro{
@@ -41,3 +45,18 @@ select, option{
     display: flex;
     flex-direction: column;
 }
+.divBtnAddMemeber{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.btnAddMemeber{
+    width: 15%;
+    height: 35px;
+    font-weight: bold;
+    border: solid 1px white;
+    border-radius: 15px;
+    background: transparent;
+    color: white;
+}
+
